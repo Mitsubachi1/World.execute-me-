@@ -29,7 +29,7 @@ def singasong():
     Complite = False
     start_event.wait()
     while Complite == False:
-        #World.singAsong()
+    
         time.sleep(1.1)
         power_line = False
         World.slow_print(style.RED+"Switch on the power line"+style.RESET,0.02 )
